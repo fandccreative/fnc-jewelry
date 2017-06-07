@@ -1,0 +1,9 @@
+@media all and (max-width: 1200px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+     .navbar .navtop,
+     .navbar .search-social {
+     		display: none;
+     }
+}
