@@ -7,7 +7,13 @@ class Footer extends React.Component {
 				<section className="main-footer">
 					<div className="container">
 						<div className ="row">
-							<div className="">
+							<div className="col-md-2">
+							</div>
+							<div className="col-md-4">
+							</div>
+							<div className="col-md-3">
+							</div>
+							<div className="col-md-3">
 							</div>
 						</div>
 						<div className="connect-with-us">
