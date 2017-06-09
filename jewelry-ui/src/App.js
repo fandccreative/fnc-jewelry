@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 
-// import Header from './components/header';
-import Slider from './components/slider';
-import Infoslider from './components/infoslider';
-// import Newsletter from './components/newsletter';
-// import Footer from './components/footer';
+import Banner from './components/banner';
+import Tab from './components/tab';
+import Collection from './components/collection';
+import Arrival from './components/arrival';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      	<Slider />
-      	<Infoslider />
+      	<Banner />
+      	<Tab />
+      	<Collection />
+      	<Arrival />
       </div>
     );
   }
