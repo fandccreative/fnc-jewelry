@@ -1,9 +1,148 @@
-@media all and (max-width: 1200px) {
-    .navbar-collapse .nav > .divider-vertical {
-        display: none;
-     }
-     .navbar .navtop,
-     .navbar .search-social {
-     		display: none;
-     }
+/* Global Style */
+@media all and (max-width: 768px) {
+
+	.container {
+		margin: 0 auto;
+		max-width: 100% !important;
+	}
+
+}
+
+/* Section Banner */
+
+@media all and (max-width: 768px) {
+
+	.site-banner .content {
+		padding-left: 0px;
+	}
+	.site-banner .content-inner {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.site-banner .intro {
+		margin-top: 82.5px;
+		font-size: 23.81px;
+	}
+	.site-banner .title {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 58.66px;
+	}
+	.site-banner .desc {
+		margin-top: 10px;
+		font-size: 18.66px;
+		text-align: center;
+	}
+	.site-banner .button-banner {
+		border-radius: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+		letter-spacing: 2px;
+		margin: 20px auto 0 auto;
+	}
+
+}
+
+/* Section Tab */
+
+@media all and (max-width: 768px) {
+
+	.site-tab .content {
+		padding-left: 0px;
+	}
+	.site-tab .content-inner {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.site-tab .title {
+		margin-top: 21.25px;
+		text-align: center;
+	}
+	.site-tab .desc {
+		margin-top: 10px;
+		font-size: 18.66px;
+		text-align: center;
+	}
+	.site-tab .button-tab {
+		display: block;
+		margin: 15px auto 0px auto;
+	}
+	.site-tab .img-bracelet {
+		display: block;
+		margin: 25px auto 0 auto;
+	}
+
+}
+
+/* Section Collection */
+
+@media all and (max-width: 768px) {
+
+	.site-collection .title {
+		margin-top: 32.5px;
+	}
+	.site-collection .border-stars {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.site-collection .product {
+		margin-top: 15px;
+	}
+
+	.site-collection .product-col {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.site-collection .product-title {
+		font-size: 20px;
+		margin-top: 40px;
+		font-weight: bold;
+		text-align: center;
+		position: relative;
+		text-transform: uppercase;
+		font-family: 'Gotham-Rounded-Light';
+	}
+
+	.site-collection .product-title span::after {
+		left: 38%;
+		width: 24%;
+		height: 3px;
+		content: " ";
+		bottom: -40%;
+		display: table;
+		position: absolute;
+		background-color: #505154;
+	}
+
+	.site-collection .link {
+		color: #109bc9;
+		display: block;
+		margin-top: 20px;
+		font-weight: bold;
+		font-size: 13.08px;
+		text-align: center;
+		font-family: 'Gotham-Rounded-Light';
+	}
+
+	.site-collection .product img {
+		display: block;
+		margin: 0 auto;
+	}
+
+}
+
+/* Section Arrival */
+
+@media all and (max-width: 768px) {
+	.site-arrival .intro {
+		margin-top: 0px;
+	}
+	.site-arrival .product {
+		margin-top: 0px;
+	}
+	.site-arrival .arrival-box {
+		margin-top: 20px;
+	}
 }
