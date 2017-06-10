@@ -146,3 +146,35 @@
 		margin-top: 20px;
 	}
 }
+
+
+/* Section Special */
+@media all and (max-width: 768px) {
+	.site-special img {
+		margin: 57.5px auto 0px auto;
+		display :block;
+		padding-right: 0px;
+	}
+	.site-special .title {
+		margin-top: 20px;
+	}
+	.site-special .title span::before{
+	content: " ";
+	display: table;
+	position: absolute;
+	left: 50px;
+	bottom: -15px;
+	height: 4px;
+	background-color: #e8e8e8;
+	width: 70%;
+	}
+	.site-special .title,
+	.site-special .desc {
+		text-align: center;
+	}
+	.site-special .button-special {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
