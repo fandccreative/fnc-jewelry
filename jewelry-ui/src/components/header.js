@@ -1,39 +1,32 @@
 import React from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
-
-// imported pictures //
-
-// import logo from '.././assets/images/fnc.png';
-// import facebook from '.././assets/images/social-icons/facebook.png';
-// import twitter from '.././assets/images/social-icons/twitter.png';
-// import googleplus from '.././assets/images/social-icons/google-plus.png';
-// import instagram from '.././assets/images/social-icons/instagram.png';
 
 class Header extends React.Component {
+
 	render() {
 		return(
-			<header id="header">
-			<Navbar fluid>
-				<Navbar.Header>
-					<Navbar.Brand>
-						<a href=""></a>
-					</Navbar.Brand>
-				</Navbar.Header>
-			</Navbar>
-			<Navbar id="mainNavigation" className="container">
-					<Nav>
-						<NavItem eventKey={1} href="">Home</NavItem>
-						<NavItem eventKey={1} href="">Engagement</NavItem>
-						<NavItem eventKey={1} href="">Wedding</NavItem>
-						<NavItem eventKey={1} href="">Jewelry</NavItem>
-						<NavItem eventKey={1} href="">Promos</NavItem>
-						<NavItem eventKey={1} href="">News & Events</NavItem>
-						<NavItem eventKey={1} href="">About Us</NavItem>
-						<NavItem eventKey={1} href="">Contact</NavItem>
-						<NavItem eventKey={1} href="">Online</NavItem>
-						<NavItem eventKey={1} href="">Store Locator</NavItem>
-					</Nav>
-			</Navbar>
+			<header id="header" className="site-header">
+				<div className="container">
+					<div className="content">
+						<div className="content-inner">
+							<nav className="navbar navbar-default main-nav">
+								<div className="container-fluid1">
+									<ul className="nav navbar-nav">
+										<li><a href="">Home</a></li>
+										<li><a href="">Engagement</a></li>
+										<li><a href="">Wedding</a></li>
+										<li><a href="">Jewelry</a></li>
+										<li><a href="">Promos</a></li>
+										<li><a href="">News & Events</a></li>
+										<li><a href="">About Us</a></li>
+										<li><a href="">Contact</a></li>
+										<li><a href="">Online</a></li>
+										<li><a href="">Store Locator</a></li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
 			</header>
 		);
 	}

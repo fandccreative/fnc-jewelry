@@ -10,6 +10,33 @@
 	max-width: 1120px;	
 }
 
+/* Navigation */
+
+.main-nav {
+	margin: 0;
+	border: 0px;
+	border-radius: 0px;
+	background: #959494;
+	background: -o-linear-gradient(#959494, #6e6d6d);
+  background: linear-gradient(#959494, #6e6d6d);
+  background: -webkit-linear-gradient(#959494, #6e6d6d);
+  background: -moz-linear-gradient(#959494, #6e6d6d);
+}
+
+.main-nav .navbar-nav li a {
+	color: white;
+	padding-left: 14.51px;
+	font-size: 15.96px;
+	padding-right: 14.51px;
+	font-family: 'Arno-Pro';
+	text-transform: uppercase;
+}
+
+.main-nav .navbar-nav li a:hover {
+	color: white;
+	background-color: #109bc9;
+}
+
 /* Slider */
 
 .site-banner {
@@ -313,6 +340,119 @@
 	font-size: 16px;
 	text-align: center;
 	font-family: 'Arno-Pro';
+}
+
+.site-offer .col-md-6:nth-of-type(1) {
+	background-image: url('.././images/offer/offer-discount.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.site-offer .cross-fing {
+	background-image: url('.././images/offer/fingers.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.site-offer .discount {
+	margin-bottom: -30px;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 95.1px;
+	font-family: 'Gotham-Medium';
+}
+
+.site-offer .discount span {
+	margin-bottom: -30px;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 42.5px;
+	vertical-align: top;
+	font-family: 'Gotham-Medium';
+}
+
+.site-offer .title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 26.98px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Gotham-Light';
+}
+
+.site-offer .desc {
+	font-size: 13.33px;
+	text-align: center;
+	font-family: 'Gotham-Light';
+}
+
+.site-offer .button-offer {
+	display: block;
+	margin: 0 auto 60px auto;
+	color: #fcfcfc;
+	padding: 1px 20px;
+	font-size: 15.99px;
+	border-radius: 22px;
+	background: #494d96;
+	font-family: 'Gotham-Thin-Regular';
+	background-size: cover;
+	background-position: center;
+	background: -o-linear-gradient(#494d96, #0e1374);
+  background: linear-gradient(#494d96, #0e1374);
+  background: -webkit-linear-gradient(#494d96, #0e1374);
+  background: -moz-linear-gradient(#494d96, #0e1374);
+}
+
+.site-offer .button-offer:active,
+.site-offer .button-offer:focus {
+	box-shadow: 0px;
+	outline: 0px;
+}
+
+.site-offer .button-ourlove {
+	text-shadow: 0px 2px 4px #413f3e;
+	border-radius: 15px;
+	color: white;
+	border: 4px solid #d7d3d5;
+	background-color: transparent;
+	text-transform: uppercase;
+	font-size: 44.44px;
+	font-family: 'Goudy-Regular';
+	display: block;
+	width: 70%;
+	margin: 125px auto 0 auto;
+}
+
+.site-offer .button-ourlove:active,
+.site-offer .button-ourlove:focus {
+	box-shadow: 0px;
+	outline: 0px;
+}
+
+.site-offer .share {
+	text-align: center;
+	font-family: 'Allura';
+	color: white;
+	font-size: 33.56px;
+	margin-bottom: 30px;
+}
+
+.site-offer .cross-fing ul {
+	list-style-type: none;
+	display: block;
+	margin: 0 auto 25px auto;
+	text-align: center;
+}
+
+.site-offer .cross-fing ul li {
+	margin-right: 20px;
+	display: inline-block;
+}
+
+.site-offer .cross-fing ul li:last-child {
+	margin-right: 0px;
 }
 
 /* Section Feature */
