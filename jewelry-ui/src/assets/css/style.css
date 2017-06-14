@@ -1,0 +1,595 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+/* Global Style */ 
+
+.container {
+	margin: 0 auto;
+	max-width: 1120px;	
+}
+
+/* Slider */
+
+.site-banner {
+	height: 628px;
+	position: relative;
+	background: #62bcff;
+	background: -o-linear-gradient(bottom right, #62bcff, #ffffff);
+  background: linear-gradient(to bottom right, #62bcff, #ffffff);
+  background: -webkit-linear-gradient(left top, #62bcff, #ffffff);
+  background: -moz-linear-gradient(bottom right, #62bcff, #ffffff);
+}
+
+.site-banner .content {
+	padding-left: 95px;
+}
+
+.site-banner .content-inner {
+	width: 48%;
+}
+
+.site-banner .intro {
+	margin-top: 165px;
+	font-size: 23.81px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Gotham-Thin-Regular';
+}
+
+.site-banner .title {
+	margin-top: 0px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	font-size: 58.66px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Gotham-Extra-Light';
+}
+.site-banner .desc {
+	margin-top: 10px;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 18.66px;
+	padding-bottom: 5px;
+	font-family: 'Goudy';
+	text-transform: uppercase;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.site-banner .button-banner {
+	color: white;
+	display: block;
+	font-size: 16px;
+	border-radius: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	letter-spacing: 2px;
+	background-color: black;
+	border: 2px solid black;
+	margin: 20px auto 0 auto;
+	text-transform: uppercase;
+	font-family: 'GothamBook';
+	transition: all .2s ease-out;
+}
+
+.site-banner .button-banner:hover {
+	box-shadow: 1px 1px 10px black;
+	transition: all .2s ease-in;
+}
+
+.site-banner .button-banner:focus,
+.site-banner .button-banner:active {
+	outline: 0px;
+	box-shadow: 0px;
+}
+
+/* Tab */
+
+.site-tab .content {
+	padding-left: 95px;
+	border-bottom: 4px solid #e6e6e6;
+}
+
+.site-tab .title {
+	margin-top: 85px;
+	font-size: 53.33px;
+	font-family: 'Gotham-Extra-Light' !important;
+}
+
+.site-tab .desc {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Gotham-Thin-Regular';
+}
+
+.site-tab .button-tab {
+	color: white;
+	margin-top: 15px;
+	font-size: 15.83px;
+	letter-spacing: 1px;
+	border-radius: 20px;
+	border: 2px solid #109bc9;
+	background-color: #109bc9;
+	font-family: 'Gotham-Rounded-Light';
+	transition: all .2s ease-out;
+}
+
+.site-tab .button-tab:hover {
+	box-shadow: 1px 1px 10px #959595;
+	transition: all .2s ease-in;
+}
+
+.site-tab .button-tab:focus,
+.site-tab .button-tab:active {
+	outline: 0px;
+	box-shadow: 0px;
+}
+
+.site-tab .img-bracelet {
+	display: block;
+	margin: 50px auto 0 auto;
+}
+
+/* Section Collection */
+
+.site-collection .title {
+	color: #505154;
+	margin-top: 65px;
+	font-size: 39.99px;
+	text-align: center;
+	font-family: 'Arno-Pro';
+	text-transform: uppercase;
+}
+
+.site-collection .border-stars {
+	display: block;
+	margin: 0 auto;
+}
+
+.site-collection .product-col {
+	margin-top: 50px;
+}
+
+.site-collection .product-box {
+	/*border: 1px solid #ebebeb;*/
+	padding: 20px 50px 30px 50px;
+/*	box-shadow: 3px 3px 6px #ebebeb;*/
+}
+
+.site-collection .product-title {
+	font-size: 20px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Gotham-Rounded-Light';
+}
+
+.site-collection .product-title span::after {
+	left: 31%;
+	width: 40%;
+	height: 3px;
+	content: " ";
+	bottom: -40%;
+	display: table;
+	position: absolute;
+	background-color: #505154;
+}
+
+.site-collection .link {
+	color: #109bc9;
+	display: block;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 13.08px;
+	text-align: center;
+	font-family: 'Gotham-Rounded-Light';
+}
+
+.site-collection .link:hover {
+	text-decoration: none;
+}
+
+.site-collection .product img {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Section Arrival */
+
+.site-arrival .intro {
+	color: #7d7d7e;
+	margin-top: 80px;
+	overflow: hidden;
+	margin-bottom: 0px;
+	font-size: 26.66px;
+	text-align: center;
+	position: relative;
+	font-family: 'Arno-Pro';
+	text-transform: uppercase;
+}
+
+.site-arrival .intro::before {
+  position: absolute;
+  top: 35%;
+  overflow: hidden;
+  width: 4%;
+  height: 2px;
+  content: '\a0';
+  background-color: #656769;
+  margin-left: -5.5%;
+  text-align: right;
+}
+
+.site-arrival .intro::after {
+  position: absolute;
+  top: 35%;
+  overflow: hidden;
+  width: 4%;
+  height: 2px;
+  content: '\a0';
+  background-color: #656769;
+  margin-left: 1.4%;
+  text-align: right;
+}
+
+.site-arrival .title {
+	color: #505154;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 39.99px;
+	text-align: center;
+	font-family: 'Arno-Pro';
+	text-transform: uppercase;
+}
+
+.site-arrival .border-stars {
+	display: block;
+	margin: 0 auto;
+}
+
+.site-arrival .product {
+	margin-top: 50px;
+}
+
+.site-arrival .arrival-box {
+	/*border: 1px solid #ebebeb;*/
+	padding: 20px 50px 30px 50px;
+}
+
+.site-arrival .product-title {
+	margin-bottom: 20px;
+	font-size: 19.99px;
+	text-align: center;
+	font-family: 'Gotham-Rounded-Light';
+}
+
+.site-arrival .product-title span::after {
+	left: 42%;
+	width: 16%;
+	height: 2px;
+	content: " ";
+	bottom: 17%;
+	display: table;
+	position: absolute;
+	background-color: #505154;
+}
+
+.site-arrival .link {
+	color: #109bc9;
+	display: block;
+	margin-top: 0px;
+	font-weight: bold;
+	font-size: 13.03px;
+	text-align: center;
+	font-family: 'Gotham-Rounded-Light';
+}
+
+.site-arrival .link:hover {
+	text-decoration: none;
+}
+
+.site-arrival .product img{
+	display: block;
+	margin: 0 auto;
+}
+
+/* Section Offer */
+
+.site-offer .qoute-title {
+	color: #616161;
+	margin-top: 35px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: 'Arno-Pro';
+}
+
+.site-offer .author-qoute {
+	color: #616161;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Arno-Pro';
+}
+
+/* Section Feature */
+
+.site-feature {
+	margin-top: 30px;
+	background-color: #ecebea;
+}
+
+.site-feature .col-box img {
+	display: block;
+	margin: 0 auto;
+}
+
+.site-feature .title {
+	font-size: 24.58px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'CenturyGothic';
+}
+
+.site-feature .desc {
+	color: #7e7e7e;
+	font-size: 17.2px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Cataneo';
+}
+
+.site-feature .content-inner {
+	margin-top: 30px;
+}
+
+/* Section Special */
+
+.site-special img {
+	padding-right: 40px;
+	margin-top :115px;
+}
+
+.site-special .title {
+	margin-top: 80px;
+	position: relative;
+	font-size: 32.94px;
+	text-transform: uppercase;
+	font-family: 'Gotham-Light';
+}
+
+.site-special .title span::before{
+	content: " ";
+	display: table;
+	position: absolute;
+	left: 0;
+	bottom: -15px;
+	height: 4px;
+	background-color: #e8e8e8;
+	width: 44%;
+}
+
+.site-special .desc {
+	position: relative;
+	margin-top: 35px;
+	font-size: 13.33px;
+}
+
+.site-special .button-special {
+	margin-top: 30px;
+	color: #fcfcfc;
+	padding: 10px 35px;
+	font-size: 15.99px;
+	border-radius: 22px;
+	background: #494d96;
+	background: -o-linear-gradient(#494d96, #0e1374);
+  background: linear-gradient(#494d96, #0e1374);
+  background: -webkit-linear-gradient(#494d96, #0e1374);
+  background: -moz-linear-gradient(#494d96, #0e1374);
+	font-family: 'Gotham-Thin-Regular';
+}
+
+.site-special .button-special:active,
+.site-special .button-special:focus {
+	box-shadow: 0px;
+	outline: 0px;
+}
+
+/* Section Newsletter */
+
+.site-newsletter {
+	padding-bottom: 25px;
+	margin-top: 55px;
+	background-color: #79d8f6;
+}
+.site-newsletter .col-border-1 {
+	border-right: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.site-newsletter .col-border-2 {
+	border-left: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.site-newsletter .title,
+.site-newsletter .desc {
+	text-align: center;
+}
+.site-newsletter .title {
+	font-size: 24px;
+	margin-top: 45px;
+	text-transform: uppercase;
+	font-family: 'Gotham-Rounded-Light';
+}
+.site-newsletter .desc {
+	font-size: 14.67px;
+	font-family: 'Gotham-Rounded-Light';
+}
+.site-newsletter .form-newsletter {
+	display: block;
+	margin: 0 auto;
+}
+.site-newsletter input {
+	border-radius: 0px;
+	width: 100%;
+	margin-right: 10px;
+	height: 45px;
+	border: 0px;
+}
+.site-newsletter input:focus,
+.site-newsletter input:active,
+.site-newsletter input:visited {
+	outline: 0px;
+	box-shadow: none;
+}
+.site-newsletter button {
+	border-radius: 0px;
+	width: 100%;
+	height: 45px;
+	background-color: #000000;
+	color: white;
+	border: 0px;
+	text-transform: uppercase;
+}
+.site-newsletter button:active,
+.site-newsletter button:focus,
+.site-newsletter button:visited {
+	outline: 0px;
+}
+.site-newsletter .form-newsletter {
+	margin-top: 35px;
+	margin-bottom: 45px;
+}
+
+/* Footer */
+
+.site-footer .content-inner {
+	margin-top: 50px;
+}
+
+.site-footer .logo-footer-bot img {
+	display: block;
+	margin: 0 auto;
+}
+
+.site-footer .logo-footer-bot p {
+	font-size: 9.33px;
+	margin-top: 5px;
+	text-align: center;
+	font-family: 'Gotham-Rounded-Light';
+}
+
+.site-footer h2 {
+	margin-top: 0px;
+}
+
+.site-footer .location h2 {
+	margin-bottom: 5px;
+	font-size: 17.33px;
+	font-weight: bold;
+	font-family: 'Arno-Pro';
+	text-transform: uppercase;
+}
+
+.site-footer .location h2:nth-of-type(2) {
+	margin-top: 30px;
+}
+
+.site-footer .location ul {
+	list-style: none;
+}
+
+.site-footer .location ul li {
+	font-weight: bold;
+	font-size: 13.33px;
+	font-family: 'Gotham-Light';
+}
+
+.site-footer .about_services h2 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 17.33px;
+	font-family: 'Arno-Pro';
+	text-transform: uppercase;
+}
+
+.site-footer .about_services h2:nth-of-type(2) {
+	margin-top: 49px;
+}
+
+.site-footer .about_services ul {
+	list-style: none;
+}
+
+.site-footer .about_services ul li {
+	font-weight: bold;
+	font-size: 13.33px;
+	font-family: 'Gotham-Light';
+}
+
+.site-footer .information_education h2 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 17.33px;
+	font-family: 'Arno-Pro';
+	text-transform: uppercase;
+}
+
+.site-footer .information_education h2:nth-of-type(2) {
+	margin-top: 30px;
+}
+
+.site-footer .information_education ul {
+	list-style: none;
+}
+
+.site-footer .information_education ul li {
+	font-weight: bold;
+	font-size: 13.33px;
+	font-family: 'Gotham-Light';
+}
+
+.site-footer .copyright {
+	background-color: black;
+}
+
+.site-footer .copyright p {
+	color: #6e6c6c;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: 'Gotham-Thin-Regular';
+}
+
+.site-footer .copyright p span {
+	font-family: 'Gotham-Light';
+}
+
+.site-footer .social-media-footer p {
+	margin-top: 50px;
+	font-size: 17.33px;
+	text-align: center;
+	font-family: 'GothamBook';
+}
+
+.site-footer .social-media-footer ul {
+	margin-bottom: 20px;
+	display: block;
+	text-align: center;
+	list-style: none;
+}
+
+.site-footer .social-media-footer ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.site-footer .social-media-footer ul li:last-child {
+	margin-right: 0px;
+}

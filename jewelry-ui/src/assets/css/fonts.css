@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Arno-Pro';
+    src: url('.././fonts/ArnoPro-Regular.otf'),
+         url('.././fonts/ArnoPro-Regular.otf?#iefix') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'Gotham-Extra-Light';
+    src: url('.././fonts/Gotham-Extra-Light.otf'),
+         url('.././fonts/Gotham-Extra-Light.otf?#iefix') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'Gotham-ExtraLight-Regular';
+    src: url('.././fonts/Gotham-ExtraLight-Regular.ttf'),
+         url('.././fonts/Gotham-ExtraLight-Regular.ttf?#iefix') format('embedded-truetype');
+}
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('.././fonts/Gotham-Light.otf'),
+         url('.././fonts/Gotham-Light.otf?#iefix') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'Gotham-Rounded-Light';
+    src: url('.././fonts/Gotham-Rounded-Light.otf'),
+         url('.././fonts/Gotham-Rounded-Light.otf?#iefix') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'Gotham-Thin-Regular';
+    src: url('.././fonts/Gotham-Thin-Regular.otf'),
+         url('.././fonts/Gotham-Thin-Regular.otf?#iefix') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'Goudy';
+    src: url('.././fonts/GoudyOldStyleBT-Roman.ttf'),
+         url('.././fonts/GoudyOldStyleBT-Roman.ttf?#iefix') format('embedded-truetype');
+}
+@font-face {
+    font-family: 'GothamBook';
+    src: url('.././fonts/Gotham-Book.otf'),
+         url('.././fonts/Gotham-Book.otf?#iefix') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'Goudy-Regular';
+    src: url('.././fonts/GoudyOldStyleT-Regular.ttf'),
+         url('.././fonts/GoudyOldStyleT-Regular.ttf?#iefix') format('embedded-truetype');
+}
+@font-face {
+    font-family: 'Allura';
+    src: url('.././fonts/Allura-Regular.otf'),
+         url('.././fonts/Allura-Regular.otf?#iefix') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'Cataneo';
+    src: url('.././fonts/cataneo-bt-regular.ttf'),
+         url('.././fonts/cataneo-bt-regular.ttf?#iefix') format('embedded-truetype');
+}
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('.././fonts/CenturyGothic.ttf'),
+         url('.././fonts/CenturyGothic.ttf?#iefix') format('embedded-truetype');
+}
