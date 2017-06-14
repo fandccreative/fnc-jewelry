@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Header from './components/header';
 import Banner from './components/banner';
 import Tab from './components/tab';
 import Collection from './components/collection';
@@ -14,6 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header />
       	<Banner />
       	<Tab />
       	<Collection />
