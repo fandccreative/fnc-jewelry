@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
 
@@ -11,7 +12,7 @@ class Header extends React.Component {
 							<nav className="navbar navbar-default main-nav">
 								<div className="container-fluid1">
 									<ul className="nav navbar-nav">
-										<li><a href="">Home</a></li>
+										<li><Link to= "/">Home</Link></li>
 										<li><a href="">Engagement</a></li>
 										<li><a href="">Wedding</a></li>
 										<li><a href="">Jewelry</a></li>
