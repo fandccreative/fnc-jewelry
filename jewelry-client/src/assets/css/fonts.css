@@ -58,3 +58,9 @@
     src: url('.././fonts/CenturyGothic.ttf'),
          url('.././fonts/CenturyGothic.ttf?#iefix') format('embedded-truetype');
 }
+
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('.././fonts/Open_Sans/OpenSans-Regular.ttf'),
+         url('.././fonts/Open_Sans/OpenSans-Regular.ttf?#iefix') format('embedded-truetype');
+}

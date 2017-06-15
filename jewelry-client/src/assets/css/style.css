@@ -5,34 +5,191 @@
 
 /* Global Style */ 
 
-.container {
+/*.container {
+	max-width: 1113px;
 	margin: 0 auto;
-	max-width: 1120px;	
+}*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+/* header */
+
+.site-header img {
+	float: left;
+}
+
+.site-header .nav-top {
+	margin-top: 40px;
+	list-style-type: none;
+	float: right;
+}
+
+.site-header .nav-top li {
+	display: inline-block;
+	padding: 0px 10px;
+	float: left;
+	position: relative;
+}
+
+.site-header .nav-top li span.divider::before {
+	content: " ";
+	display: table;
+	position: absolute;
+	height: 10px;
+	width: 1px;
+	background-color: #8d8a8a;
+	top: 7px;
+	right: 0;
+}
+
+.site-header .nav-top .header-info {
+	text-align: right;
+}
+
+.site-header .nav-top li a{
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #8d8a8a;
+	font-family: 'Gotham-Rounded-Light';
+	font-weight: bold;
+}
+
+.site-header .nav-top li a span{
+	margin-top: -4px;
+	text-transform: initial;
+	display: block;
+}
+
+.site-header .nav-top li a:hover{
+	text-decoration: none;
+}
+
+/**/
+
+.site-header .search-icons-cart {
+	margin-top: 25px;
+	list-style-type: none;
+	float: right;
+}
+
+.site-header .search-icons-cart li {
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+.site-header .search-icons-cart li input {
+	width: 260px;
+	border-radius: 0px;
+	border: 1px solid #8c8c8c;
+	font-size: 10px;
+	margin-right: 5px;
+	font-family: 'Gotham-Rounded-Light';
+	margin-top: 4px;
+}
+
+.site-header .search-icons-cart li input:focus,
+.site-header .search-icons-cart li input:active {
+	box-shadow: 0px !important;
+	outline: 0px !important;
+}
+
+.site-header .search-icons-cart li button {
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	margin-left: 5px;
+	padding-top: 8.5px;
+	padding-bottom: 8.5px;
+	font-size: 10.67px;
+	text-transform: uppercase;
+	border: 1px solid #8c8c8c;
+	border-radius: 0px;
+	font-family: 'Gotham-Rounded-Light';
+	background-color: black;
+	margin-top: 4px;
+	margin-right: 15px;
+}
+
+.site-header .search-icons-cart li button:hover {
+	background-color: black;
+	box-shadow: 1px 2px 2px #b9b9b9;
+}
+
+.site-header .search-icons-cart li button:focus,
+.site-header .search-icons-cart li button:active {
+	outline: 0px;
+	box-shadow: 0px;
+	color: white;
+}
+
+.site-header .search-icons-cart .nav-social-icons {
+	margin-left: 10px;
+	position: relative;
+}
+
+.site-header .search-icons-cart .nav-social-icons .fa-shopping-cart {
+	color: #4f4f4f;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.site-header .search-icons-cart .nav-social-icons .cart-count {
+	background-color: #f35a5a;
+	padding-left: 5px;
+	width: 17px;
+	height: 17px;
+	font-size: 10px;
+	color: white;
+	border-radius: 50%;
+	position: absolute;
+	right: -5px;
+	padding-top: 1px;
+	overflow: hidden;
 }
 
 /* Navigation */
 
-.main-nav {
+.navbar {
 	margin: 0;
 	border: 0px;
 	border-radius: 0px;
-	background: #959494;
-	background: -o-linear-gradient(#959494, #6e6d6d);
-  background: linear-gradient(#959494, #6e6d6d);
-  background: -webkit-linear-gradient(#959494, #6e6d6d);
-  background: -moz-linear-gradient(#959494, #6e6d6d);
+	background: #a9a8a8;
+	background: -o-linear-gradient(#a9a8a8, #6e6d6d);
+  background: linear-gradient(#a9a8a8, #6e6d6d);
+  background: -webkit-linear-gradient(#a9a8a8, #6e6d6d);
+  background: -moz-linear-gradient(#a9a8a8, #6e6d6d);
 }
 
-.main-nav .navbar-nav li a {
+.navbar .container {
+	background: #a9a8a8;
+	background: -o-linear-gradient(#a9a8a8, #6e6d6d);
+  background: linear-gradient(#a9a8a8, #6e6d6d);
+  background: -webkit-linear-gradient(#a9a8a8, #6e6d6d);
+  background: -moz-linear-gradient(#a9a8a8, #6e6d6d);
+}
+
+.navbar .navbar-nav li a {
 	color: white;
-	padding-left: 14.51px;
+	padding-left: 17px;
 	font-size: 15.96px;
-	padding-right: 14.51px;
+	padding-right: 17px;
 	font-family: 'Arno-Pro';
 	text-transform: uppercase;
 }
 
-.main-nav .navbar-nav li a:hover {
+.navbar .navbar-nav li a:hover {
 	color: white;
 	background-color: #109bc9;
 }
@@ -42,6 +199,9 @@
 .site-banner {
 	height: 628px;
 	position: relative;
+	/*background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../images/sliders/slider_1.jpg');*/
 	background: #62bcff;
 	background: -o-linear-gradient(bottom right, #62bcff, #ffffff);
   background: linear-gradient(to bottom right, #62bcff, #ffffff);
@@ -605,131 +765,103 @@
 	margin-bottom: 45px;
 }
 
-/* Footer */
+/* Start of Footer */
 
-.site-footer .content-inner {
-	margin-top: 50px;
-}
-
-.site-footer .logo-footer-bot img {
+.site-footer .logo-footer img {
 	display: block;
-	margin: 0 auto;
 }
 
-.site-footer .logo-footer-bot p {
-	font-size: 9.33px;
-	margin-top: 5px;
+.site-footer .row ul {
+	list-style-type: none;
+}
+
+.site-footer .row ul li {
+	font-size: 13.33px;
+	font-weight: bold;
+	font-family: 'Gotham-Light';
+}
+
+.site-footer .row ul li a {
+	color: black;
+	font-weight: bold;
+}
+
+.site-footer .row ul li a:hover {
+	color: #c7c7c7;
+	text-decoration: none;
+	transition: .2s;
+}
+
+.site-footer .row p {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	font-size: 17.33px;
+	font-family: 'Arno-Pro';
+}
+
+.site-footer .logo-footer,
+.site-footer .location p:nth-of-type(1),
+.site-footer .about-services p:nth-of-type(1),
+.site-footer .information-education p:nth-of-type(1) {
+	margin-top: 55px;
+}
+
+.site-footer .location p:nth-of-type(2) {
+	margin-top: 35px;
+}
+
+.site-footer .about-services p:nth-of-type(2) {
+	margin-top: 54px;
+}
+
+.site-footer .information-education p:nth-of-type(2) {
+	margin-top: 35px;
+}
+
+/* Footer Connect With Us */
+
+.site-footer .social-media p{
+	font-weight: bold;
 	text-align: center;
-	font-family: 'Gotham-Rounded-Light';
-}
-
-.site-footer h2 {
-	margin-top: 0px;
-}
-
-.site-footer .location h2 {
-	margin-bottom: 5px;
+	margin-top: 45px;
 	font-size: 17.33px;
-	font-weight: bold;
-	font-family: 'Arno-Pro';
-	text-transform: uppercase;
+	font-family: 'GothamBook';
 }
 
-.site-footer .location h2:nth-of-type(2) {
-	margin-top: 30px;
+.site-footer .social-media ul {
+	text-align: center;
+	display: block;
+	list-style-type: none;
+	margin-bottom: 0px;
 }
 
-.site-footer .location ul {
-	list-style: none;
+.site-footer .social-media ul li {
+	display: inline-block;
+	margin-right: 1%;
 }
 
-.site-footer .location ul li {
-	font-weight: bold;
-	font-size: 13.33px;
-	font-family: 'Gotham-Light';
+.site-footer .social-media ul li:last-child {
+	margin-right: 0px;
 }
 
-.site-footer .about_services h2 {
-	margin-top: 0px;
-	margin-bottom: 5px;
-	font-weight: bold;
-	font-size: 17.33px;
-	font-family: 'Arno-Pro';
-	text-transform: uppercase;
-}
-
-.site-footer .about_services h2:nth-of-type(2) {
-	margin-top: 49px;
-}
-
-.site-footer .about_services ul {
-	list-style: none;
-}
-
-.site-footer .about_services ul li {
-	font-weight: bold;
-	font-size: 13.33px;
-	font-family: 'Gotham-Light';
-}
-
-.site-footer .information_education h2 {
-	margin-top: 0px;
-	margin-bottom: 5px;
-	font-weight: bold;
-	font-size: 17.33px;
-	font-family: 'Arno-Pro';
-	text-transform: uppercase;
-}
-
-.site-footer .information_education h2:nth-of-type(2) {
-	margin-top: 30px;
-}
-
-.site-footer .information_education ul {
-	list-style: none;
-}
-
-.site-footer .information_education ul li {
-	font-weight: bold;
-	font-size: 13.33px;
-	font-family: 'Gotham-Light';
-}
+/* Footer Copyright */
 
 .site-footer .copyright {
+	margin-top: 25px;
 	background-color: black;
 }
 
 .site-footer .copyright p {
-	color: #6e6c6c;
-	text-align: center;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	padding: 25px 0px;
+	font-size: 12px;
 	font-family: 'Gotham-Thin-Regular';
+	text-align: center;
+	color: #6e6c6c;
+	margin-bottom: 0px;
 }
 
 .site-footer .copyright p span {
+	text-transform: uppercase;
 	font-family: 'Gotham-Light';
-}
-
-.site-footer .social-media-footer p {
-	margin-top: 50px;
-	font-size: 17.33px;
-	text-align: center;
-	font-family: 'GothamBook';
-}
-
-.site-footer .social-media-footer ul {
-	margin-bottom: 20px;
-	display: block;
-	text-align: center;
-	list-style: none;
-}
-
-.site-footer .social-media-footer ul li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-.site-footer .social-media-footer ul li:last-child {
-	margin-right: 0px;
 }
