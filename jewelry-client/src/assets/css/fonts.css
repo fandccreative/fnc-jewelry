@@ -64,3 +64,15 @@
     src: url('.././fonts/Open_Sans/OpenSans-Regular.ttf'),
          url('.././fonts/Open_Sans/OpenSans-Regular.ttf?#iefix') format('embedded-truetype');
 }
+
+@font-face {
+    font-family: 'Open-Sans-Bold';
+    src: url('.././fonts/Open_Sans/OpenSans-Bold.ttf'),
+         url('.././fonts/Open_Sans/OpenSans-Bold.ttf?#iefix') format('embedded-truetype');
+}
+
+@font-face {
+    font-family: 'Open-Sans-SemiBold';
+    src: url('.././fonts/Open_Sans/OpenSans-SemiBold.ttf'),
+         url('.././fonts/Open_Sans/OpenSans-SemiBold.ttf?#iefix') format('embedded-truetype');
+}

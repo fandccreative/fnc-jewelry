@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Starsborder from '.././assets/images/stars-border.png';
 import Ring1 from '.././assets/images/arrival/ring-1.png';
@@ -236,7 +237,9 @@ class Special extends React.Component {
 		);
 	}
 }
-const Tab = () => (
+class Tab extends React.Component {
+	render() {
+		return(
 			<section id="tab" className="site-tab">
 				<div className="container">
 					<div className="content">
@@ -246,6 +249,7 @@ const Tab = () => (
 									<h2 className="title">Bracelets</h2>
 									<p className="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
 									<button className="btn button-tab">See the Collection</button>
+									<Link to="/Jewelry">See the Collection</Link>
 								</div>
 								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img className="img-responsive img-bracelet" src={Bracelet} alt="Bracelets" />
@@ -255,22 +259,19 @@ const Tab = () => (
 					</div>
 				</div>
 			</section>
-)
-
-class Home extends Component {
-  render() {
-    return (
-      <div className="App">
-      	<Banner />
-      	<Tab />
-      	<Collection />
-      	<Arrival />
-        <Feature />
-        <Special />
-        <Newsletter />
-      </div>
-    );
-  }
+		)
+	}
 }
-
+			
+const Home = () => (
+  <div className="App">
+  	<Banner />
+  	<Tab />
+  	<Collection />
+  	<Arrival />
+    <Feature />
+    <Special />
+    <Newsletter />
+  </div>
+)
 export default Home;

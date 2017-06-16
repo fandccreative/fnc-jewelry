@@ -9,6 +9,9 @@
 	max-width: 1113px;
 	margin: 0 auto;
 }*/
+body {
+	height: 2000px;
+}
 
 .clearfix:before,
 .clearfix:after {
@@ -864,4 +867,168 @@
 .site-footer .copyright p span {
 	text-transform: uppercase;
 	font-family: 'Gotham-Light';
+}
+
+.site-jewelry {
+	position: relative;
+}
+
+.site-jewelry .jewelry-sidebar {
+	margin-top: 20px;
+	width: 22%;
+	margin-right: 2%;
+	height: 200px;
+	float: left;
+}
+
+.site-jewelry .jewelry-sidebar .panel,
+.site-jewelry .jewelry-sidebar .panel-default {
+	border-radius: 0px;
+	box-shadow: 0px;
+	margin: 0;
+	border-bottom: 0px;
+}
+
+.site-jewelry .jewelry-sidebar .panel-heading {
+	font-family: 'Gotham-Rounded-Light';
+	border-radius: 0px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.site-jewelry .jewelry-sidebar .panel a {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.site-jewelry .jewelry-sidebar .panel .panel-collapse {
+	box-shadow: 0px !important;
+	border: 0px;
+
+}
+
+.site-jewelry .jewelry-sidebar .panel .panel-collapse,
+.site-jewelry .jewelry-sidebar .panel .panel-collapse .panel-body {
+	padding: 0 !important;
+}
+
+.site-jewelry .jewelry-sidebar .panel .collapsed-menu {
+	border: 0px !important;
+	box-shadow: 0px !important;
+}
+
+.site-jewelry .jewelry-sidebar .panel .collapsed-menu ul .first{
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.site-jewelry .jewelry-sidebar .panel .collapsed-menu ul .last{
+	border-bottom: 0px;
+}
+
+.site-jewelry .jewelry-sidebar .panel .collapsed-menu ul li a {
+	padding: 8px 10px 8px 25px;
+}
+
+.site-jewelry .jewelry-sidebar .panel .collapsed-menu .in,
+.site-jewelry .jewelry-sidebar .panel .collapsed-menu .collapse {
+	padding: 0;
+}
+
+.site-jewelry .jewelry-sidebar .panel .panel-body-first {
+	border-top: 0px;
+}
+.site-jewelry .jewelry-sidebar .panel .panel-body-last {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.site-jewelry .jewelry-sidebar .panel-body {
+	border-top: 1px solid #e6e6e6;
+	font-family: 'Gotham-Rounded-Light';
+	padding: 10px;
+}
+
+.site-jewelry .jewelry-main {
+	margin-top: 20px;
+	width: 76%;
+	float: left;
+}
+
+.site-jewelry .jewelry-main .row {
+	margin-bottom: 30px;
+}
+
+.site-jewelry .jewelry-main .wrap {
+	border: 1px solid #e6e6e6;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.site-jewelry .jewelry-main .wrap img {
+	display: block;
+	margin: 0 auto;
+}
+.site-jewelry .jewelry-main .wrap p.name{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-family: 'Gotham-Rounded-Light';
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.site-jewelry .jewelry-main .wrap p.price{
+	font-family: 'Gotham-Rounded-Light';
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.site-jewelry .jewelry-main .wrap .out-of-stocks {
+	padding: 2px 5px;
+	color: white;
+	display: table;
+	margin: 0 auto;
+	background-color: #ff5f5f;
+	text-transform: uppercase;
+	font-family: 'Open-Sans';
+	font-size: 10px;
+}
+
+.site-jewelry .jewelry-main .wrap .stocks-available {
+	padding: 2px 5px;
+	color: white;
+	display: table;
+	margin: 0 auto;
+	background-color: #2fc583;
+	text-transform: uppercase;
+	font-family: 'Open-Sans';
+	font-size: 10px;
+}
+
+.site-jewelry .jewelry-main .wrap button {
+	font-family: 'Open-Sans';
+	display: block;
+	text-transform: uppercase;
+	margin: 10px auto;
+	border-radius: 0px;
+	width: 50%;
+	font-size: 10px;
+}
+
+.site-jewelry .jewelry-main .wrap button.disabled {
+	opacity: .3;
+}
+
+.site-jewelry .jewelry-main .wrap button:active,
+.site-jewelry .jewelry-main .wrap button:focus {
+	outline: 0px;
+	box-shadow: 0px;
+}
+
+.site-jewelry .jewelry-main .pagination {
+	margin: 0;
 }

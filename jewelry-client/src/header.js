@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Logo from './assets/images/fnc.png';
 import Facebook_ from './assets/images/social-icons/facebook.png';
@@ -15,7 +16,7 @@ class Header extends React.Component {
 						<div className="site-header-inner">
 							<img src={Logo} alt="Site-Logo" />
 							<ul className="clearfix nav-top">
-								<li><a href="">Log in</a><span className="divider"></span></li>
+								<li><a href="">Sign in</a><span className="divider"></span></li>
 								<li><a href="">Register</a><span className="divider"></span></li>
 								<li><a href="">Settings</a><span className="divider"></span></li>
 								<li><a href="">Order Status</a><span className="divider"></span></li>
@@ -38,10 +39,10 @@ class Header extends React.Component {
 					<div className="container">
 						<nav className="navbar navbar-default">
 							<ul className="nav navbar-nav">
-								<li><a href="">Home</a></li>
-								<li><a href="">Engagement</a></li>
-								<li><a href="">Wedding</a></li>
-								<li><a href="">Jewelry</a></li>
+								<li><Link to="./">Home</Link></li>
+								<li><Link to="./Engagement">Engagement</Link></li>
+								<li><Link to="./Wedding">Wedding</Link></li>
+								<li><Link to="./Jewelry">Jewelry</Link></li>
 								<li><a href="">Promos</a></li>
 								<li><a href="">News & Events</a></li>
 								<li><a href="">About Us</a></li>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Bracelets = () => (
 	<div>
-		dasdasd
+		<center><h1>Bracelets</h1></center>
 	</div>
 )
 export default Bracelets;
