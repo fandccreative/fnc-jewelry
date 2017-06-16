@@ -21,4 +21,7 @@ public class HomeController {
         return "Hello, Spring Boot & Jet!";
     }
     
+    public String getMe(){
+        return "Hello ME!";
+    }
 }
