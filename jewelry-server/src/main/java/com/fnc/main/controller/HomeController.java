@@ -21,6 +21,7 @@ public class HomeController {
         return "Hello, Spring Boot & Jet!";
     }
     
+    @RequestMapping("/me")
     public String getMe(){
         return "Hello ME!";
     }
