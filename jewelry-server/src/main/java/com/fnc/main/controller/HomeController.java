@@ -18,11 +18,11 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home(){
-        return "Hello, Spring Boot & Jet!";
+        return "Hello, Spring Boot in Jewelry!";
     }
     
     @RequestMapping("/me")
     public String getMe(){
-        return "Hello ME!";
+        return "Hello JET!";
     }
 }
