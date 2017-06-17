@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { Panel } from 'react-bootstrap';
-import Image from '.././assets/images/infoslider/bracelets.jpg';
+import Image from '.././assets/images/collections/rings.png';
 
-class Bracelets extends React.Component {
+class Rings extends React.Component {
 	constructor(...args) {
     super(...args);
     this.state = {
@@ -45,7 +45,7 @@ class Bracelets extends React.Component {
 							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
 								<div className="wrap">
 									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 101</p>
+									<p className="name">Rings 101</p>
 									<p className="price">&#8369; 1,354.50</p>
 									<span className="stocks-available">Stocks Available</span>
 									<button className="btn btn-default">Add to Cart</button>
@@ -54,7 +54,7 @@ class Bracelets extends React.Component {
 							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
 								<div className="wrap">
 									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 102</p>
+									<p className="name">Rings 102</p>
 									<p className="price">&#8369; 1,354.50</p>
 									<span className="out-of-stocks">Out of Stocks</span>
 									<button className="btn btn-default disabled">Add to Cart</button>
@@ -63,7 +63,7 @@ class Bracelets extends React.Component {
 							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
 								<div className="wrap">
 									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 103</p>
+									<p className="name">Rings 103</p>
 									<p className="price">&#8369; 1,354.50</p>
 									<span className="stocks-available">Stocks Available</span>
 									<button className="btn btn-default">Add to Cart</button>
@@ -74,7 +74,7 @@ class Bracelets extends React.Component {
 							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
 								<div className="wrap">
 									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 101</p>
+									<p className="name">Rings 101</p>
 									<p className="price">&#8369; 1,354.50</p>
 									<span className="out-of-stocks">Out of Stocks</span>
 									<button className="btn btn-default disabled">Add to Cart</button>
@@ -83,7 +83,7 @@ class Bracelets extends React.Component {
 							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
 								<div className="wrap">
 									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 102</p>
+									<p className="name">Rings 102</p>
 									<p className="price">&#8369; 1,354.50</p>
 									<span className="stocks-available">Stocks Available</span>
 									<button className="btn btn-default">Add to Cart</button>
@@ -92,36 +92,7 @@ class Bracelets extends React.Component {
 							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
 								<div className="wrap">
 									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 103</p>
-									<p className="price">&#8369; 1,354.50</p>
-									<span className="out-of-stocks">Out of Stocks</span>
-									<button className="btn btn-default disabled">Add to Cart</button>
-								</div>
-							</div>
-						</div>
-						<div className="row">
-							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-								<div className="wrap">
-									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 101</p>
-									<p className="price">&#8369; 1,354.50</p>
-									<span className="out-of-stocks">Out of Stocks</span>
-									<button className="btn btn-default disabled">Add to Cart</button>
-								</div>
-							</div>
-							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-								<div className="wrap">
-									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 102</p>
-									<p className="price">&#8369; 1,354.50</p>
-									<span className="stocks-available">Stocks Available</span>
-									<button className="btn btn-default">Add to Cart</button>
-								</div>
-							</div>
-							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-								<div className="wrap">
-									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 103</p>
+									<p className="name">Rings 103</p>
 									<p className="price">&#8369; 1,354.50</p>
 									<span className="out-of-stocks">Out of Stocks</span>
 									<button className="btn btn-default disabled">Add to Cart</button>
@@ -132,7 +103,16 @@ class Bracelets extends React.Component {
 							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
 								<div className="wrap">
 									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 101</p>
+									<p className="name">Rings 101</p>
+									<p className="price">&#8369; 1,354.50</p>
+									<span className="out-of-stocks">Out of Stocks</span>
+									<button className="btn btn-default disabled">Add to Cart</button>
+								</div>
+							</div>
+							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+								<div className="wrap">
+									<img className="img-responsive" src={Image} alt="Bracelets" />
+									<p className="name">Rings 102</p>
 									<p className="price">&#8369; 1,354.50</p>
 									<span className="stocks-available">Stocks Available</span>
 									<button className="btn btn-default">Add to Cart</button>
@@ -141,7 +121,18 @@ class Bracelets extends React.Component {
 							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
 								<div className="wrap">
 									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 102</p>
+									<p className="name">Rings 103</p>
+									<p className="price">&#8369; 1,354.50</p>
+									<span className="out-of-stocks">Out of Stocks</span>
+									<button className="btn btn-default disabled">Add to Cart</button>
+								</div>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+								<div className="wrap">
+									<img className="img-responsive" src={Image} alt="Bracelets" />
+									<p className="name">Rings 101</p>
 									<p className="price">&#8369; 1,354.50</p>
 									<span className="stocks-available">Stocks Available</span>
 									<button className="btn btn-default">Add to Cart</button>
@@ -150,7 +141,16 @@ class Bracelets extends React.Component {
 							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
 								<div className="wrap">
 									<img className="img-responsive" src={Image} alt="Bracelets" />
-									<p className="name">Bracelet 103</p>
+									<p className="name">Rings 102</p>
+									<p className="price">&#8369; 1,354.50</p>
+									<span className="stocks-available">Stocks Available</span>
+									<button className="btn btn-default">Add to Cart</button>
+								</div>
+							</div>
+							<div className="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+								<div className="wrap">
+									<img className="img-responsive" src={Image} alt="Bracelets" />
+									<p className="name">Rings 103</p>
 									<p className="price">&#8369; 1,354.50</p>
 									<span className="out-of-stocks">Out of Stocks</span>
 									<button className="btn btn-default disabled">Add to Cart</button>
@@ -170,4 +170,4 @@ class Bracelets extends React.Component {
 		);
 	}
 }
-export default Bracelets;
+export default Rings;

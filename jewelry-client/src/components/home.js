@@ -95,28 +95,28 @@ class Collection extends React.Component {
 									<div className="product-box">
 										<img className="img-responsive img-product" src={Necklaces} alt="Necklaces" />
 										<h3 className="product-title">Necklaces<span></span></h3>
-										<a className="link" href="">See the Collection</a>
+										<Link className="link" to="./necklaces">See the Collection</Link>
 									</div>
 								</div>
 								<div className="col-sm-6 col-md-3 col-lg-3 product-col">
 									<div className="product-box">
 										<img className="img-responsive img-product" src={Earrings} alt="Earrings" />
 										<h3 className="product-title">Earrings<span></span></h3>
-										<a className="link" href="">See the Collection</a>
+										<Link className="link" to="./earrings">See the Collection</Link>
 									</div>
 								</div>
 								<div className="col-sm-6 col-md-3 col-lg-3 product-col">
 									<div className="product-box">
 										<img className="img-responsive img-product" src={Rings} alt="Rings" />
 										<h3 className="product-title">Rings<span></span></h3>
-										<a className="link" href="">See the Collection</a>
+										<Link className="link" to="./rings">See the Collection</Link>
 									</div>
 								</div>
 								<div className="col-sm-6 col-md-3 col-lg-3 product-col">
 									<div className="product-box">
 										<img className="img-responsive img-product" src={Bracelets} alt="Bracelets" />
 										<h3 className="product-title">Bracelets<span></span></h3>
-										<a className="link" href="">See the Collection</a>
+										<Link className="link" to="./bracelets">See the Collection</Link>
 									</div>
 								</div>
 							</div>
@@ -248,8 +248,7 @@ class Tab extends React.Component {
 								<div className="col-sm-12 col-md-6 col-lg-6">
 									<h2 className="title">Bracelets</h2>
 									<p className="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-									<button className="btn button-tab">See the Collection</button>
-									<Link to="/Jewelry">See the Collection</Link>
+									<Link className="btn button-tab" to="/Bracelets">See the Collection</Link>
 								</div>
 								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img className="img-responsive img-bracelet" src={Bracelet} alt="Bracelets" />
