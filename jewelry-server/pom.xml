@@ -6,7 +6,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>jewelry-server</name>
-    <description>Web Service for FnC Jewelry eCommerce</description>
+    <description>REST API for FnC Jewelry eCommerce</description>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -50,7 +50,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>jewelry-server</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
