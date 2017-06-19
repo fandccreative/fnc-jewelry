@@ -17,8 +17,8 @@ class Header extends React.Component {
 						<div className="site-header-inner">
 							<img src={Logo} alt="Site-Logo" />
 							<ul className="clearfix nav-top">
-								<li><Link to="./Signin">Sign In</Link><span className="divider"></span></li>
-								<li><Link to="./Signup">Sign Up</Link><span className="divider"></span></li>
+								<li><Link to="/Signin">Sign In</Link><span className="divider"></span></li>
+								<li><Link to="/Signup">Sign Up</Link><span className="divider"></span></li>
 								<li><a href="">Settings</a><span className="divider"></span></li>
 								<li><a href="">Order Status</a><span className="divider"></span></li>
 								<li className="li-last"><a href="">Store Locator</a></li>

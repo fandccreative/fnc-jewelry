@@ -5,13 +5,13 @@ class JewelrySignUp extends React.Component{
     return(
       <form className="signUpForm">
         <div className="formContainer">
-          <div className="socialBtn">
+          {/*<div className="socialBtn">
             <button className="fbBtn" href="">Sign up with Facebook</button>
             <button className="gBtn" href="">Sign up with Google</button>
           </div>
           <div className="orDivider">
             <hr className="hrLeft"/>or<hr className="hrRight" />
-          </div>
+          </div>*/}
           <div className="inputContainer">
             <label>Email: </label>
             <input type="email" placeholder="jane_doe@example.com" required/>

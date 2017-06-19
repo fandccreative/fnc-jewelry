@@ -238,7 +238,7 @@
 	}
 
 	/* Footer Social Media */
-	
+
 	.site-footer .social-media p {
 		text-align: left;
 		margin-top: 13.5px;
@@ -250,6 +250,34 @@
 	.site-footer .social-media ul li {
 		margin-right: 3%;
 	}
+}
+
+/*Signin and SignupForm*/
+@media all and (max-width: 325px) {
+  .signInForm, .signUpForm{
+    width: 90% !important;
+  }
+  .formContainer {
+    width: 100% !important;
+  }
+}
+
+@media all and (min-width: 326px) and (max-width: 425px) {
+  .signInForm, .signUpForm{
+    width: 80% !important;
+  }
+  .formContainer {
+    width: 100% !important;
+  }
+}
+
+@media all and (min-width: 426px) and (max-width: 768px) {
+  .signInForm, .signUpForm{
+    width: 40% !important;
+  }
+  .formContainer {
+    width: 100% !important;
+  }
 }
 
 /* End of Footer CSS Responsive */
