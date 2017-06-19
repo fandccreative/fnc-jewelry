@@ -14,8 +14,8 @@ import Footer from './footer';
 
 // Sign in Sign out
 
-// import Signin from './components/forms/signin';
-// import Signup from './components/forms/signup';
+import Signin from './components/forms/signinform';
+import Signup from './components/forms/signupform';
 
 const Pagenotfound = () => (
 	<div>
@@ -29,6 +29,8 @@ const Routes = () => (
 			<Header />
 				<Switch>
 					<Route exact path="/" component={Home} />
+					<Route path="/Signin" component={Signin} />
+					<Route path="/Signup" component={Signup} />
 					<Route path="/Bracelets" component={Bracelets} />
 					<Route path="/Necklaces" component={Necklaces} />
 					<Route path="/Earrings" component={Earrings} />

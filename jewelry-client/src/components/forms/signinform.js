@@ -22,9 +22,9 @@ class JewelrySignIn extends React.Component{
           </div>
           <div className="gridContainer">
           <div className="gridRemember">
-            <input type="checkbox" value="Remeber Me" />Remember me
+            <input type="checkbox" value="Remeber Me" /> Remember me
           </div>
-              <a className="gridForgot" href=""> Forgot password?</a>
+            <a className="gridForgot" href=""> Forgot password?</a>
           </div>
             <br />
             <input className="signInBtn" type="submit" value="Sign In" />
