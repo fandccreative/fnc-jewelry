@@ -1053,128 +1053,127 @@ body {
 
 
 
-.signInForm, .signUpForm {
-  width: 30%;
-  margin: 20px auto;
-  font-size: 12px;
-  font-family: sans-serif;
+.formBox{
+width: 30%;
+margin: 20px auto;
+overflow: hidden;
+border: 1px solid;
+border-color: lightgray;
 }
 
-.formContainer{
-  padding: 8px 20px;
+.form{
+margin: 2% 3%;
+}
+
+.titleHeader{
+  margin: 2%;
+  padding: 2%;
+  width: 96%;
+  font-size: 20px;
+	font-family: "CenturyGothic";
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.inputContainer, .inputBlock{
+  width: 100%;
   margin: 0px auto;
-  border: 1px solid #ccc ;
 }
 
-.formHeader {
-  margin-top: 20px;
-  margin-bottom: 5px;
-  text-align: center;
-}
-
-.fbBtn {
-  border-radius: 2px;
-  padding: 10px 5px;
-  border: 0px;
-  background-color: #334f8d;
-  color: white;
-  width: 49%;
-  margin: 8px 1% 0px 0px;
-  display: inline-block;
-}
-
-.gBtn {
-  border-radius: 2px;
-	padding: 10px 5px;
-  border: 0px;
-  background-color: #d84132;
-  color: white;
-  width: 49%;
-  margin: 8px 0% 0px 1%;
-  display: inline-block;
-}
-
-.orDivider {
-		width: 100%;
-    text-align: center;
-    color: #ccc;
-    margin: 10px 0px;
-    font-size: 10px;
-    text-transform: uppercase;
-		position: relative;
-		content: " ";
-		display: table;
-		clear: both;
-}
-
-.orDivider hr {
-    margin-left:auto;
-    margin-right:auto;
-    width:45%;
-}
-
-.hrLeft {
-    float:left;
-    border: 1px solid;
-		margin: 5px auto 0px auto;
-}
-
-.hrRight {
-    float:right;
-    border: 1px solid;
-		margin: 5px auto 0px auto;
-}
-
-.inputContainer label{
-  color: #757575;
-}
-
-.inputContainer input[type=text], .inputContainer input[type=password],
-.inputContainer input[type=email],.inputContainer input[type=date],
-.inputContainer input[type=tel] {
-  width: 100%;
-  height: 35px;
-  padding: 10px 10px;
-  margin: 5px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
+.inputBlock input[type=email], .inputBlock input[type=password],
+.inputBlock input[type=date], .inputBlock input[type=text],
+.inputBlock input[type=number]{
+  width: 94% ;
+  margin: 2% 3%;
   box-sizing: border-box;
-}
-
-.inputContainer input[value=birthDate] {
-  color: gray;
-}
-
-.gridRemember{
-  width: 40%;
-  margin: 8px 10% 0px 0px;
-  display: inline-block;
-}
-
-.gridForgot{
-  width: 40%;
-  margin: 8px 0px 0px 10%;
-  text-align: right;
-  display: inline-block;
-  text-decoration: none;
-}
-
-input.signInBtn, input.signUpBtn {
-  border-radius: 5px;
+  height: 30px;
   border: 0px;
-  background-color: #010570;
-  padding: 10px 40px;
-  color: white;
+  border-bottom: 1px solid;
+  border-color: lightgray;
+	font-family: "CenturyGothic";
+}
+
+.inputBlock input[type=email]:focus, .inputBlock input[type=password]:focus,
+.inputBlock input[type=date]:focus, .inputBlock input:focus[type=text],
+.inputBlock input[type=number]{
+  outline: 0px;
+}
+
+.inputBlock input[type="date"]:before{
+  content: attr(placeholder) !important;
+  color: #757575;
+  margin-right: 0.5em;
+  font-size: 15px;
+}
+
+.confirmationContainer{
   width: 100%;
-  padding: 12px 10px;
-  margin: 10px 0;
-  display: inline-block;
+  margin-top: 2%;
 }
 
-.gridSignUp {
+.rememberMe, .forgotPassword, .newUser{
+  margin: 2% 3%;
+  font-size: 12px;
+  width: 94%;
+}
+
+.signInBtn, .signUpBtn{
+  border: 1px;
+  width: 94%;
+  height: 30px;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: white;
+  background-color: navy;
+  border-radius: 2px;
+	opacity: 0.8;
+	transition-duration: 0.3s;
+	font-family: "CenturyGothic";
+}
+
+.signInBtn:hover, .signUpBtn:hover{
+	  opacity: 1;
+	  transition: 0.3s;
+}
+
+.signInBtn:active, .signUpBtn:active{
+	outline: 0px;
+}
+
+.forgotPassword, .newUser{
   text-decoration: none;
 }
 
-.notRegMenu a {
+.forgotPassword a:hover, .newUser a:hover{
   text-decoration: none;
+}
+
+
+.socialBtn{
+  margin: 2% 0px;
+  width: 100%
+}
+
+.socialSignInHeader{
+	margin: 2% 3%;
+  width: 94%;
+  font-size: 15px;
+}
+
+.fbBtn, .gBtn{
+  width: 50%;
+  height: 30px;
+  margin: 2% 2%;
+  border: 0px;
+  color: white;
+  border-radius: 2px;
+}
+
+.fbBtn{
+  background-color: #3b5998;
+}
+
+.gBtn{
+  background-color: #d84a38;
 }

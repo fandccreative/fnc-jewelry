@@ -1,49 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class JewelrySignUp extends React.Component{
   render(){
     return(
-      <form className="signUpForm">
-        <div className="formContainer">
-          {/*<div className="socialBtn">
-            <button className="fbBtn" href="">Sign up with Facebook</button>
-            <button className="gBtn" href="">Sign up with Google</button>
-          </div>
-          <div className="orDivider">
-            <hr className="hrLeft"/>or<hr className="hrRight" />
-          </div>*/}
-          <div className="inputContainer">
-            <label>Email: </label>
-            <input type="email" placeholder="jane_doe@example.com" required/>
-            <br />
-            <label>Password: </label>
-            <input type="password" />
-            <br />
-            <label>Retype Password: </label>
-            <input type="password" />
-            <br />
-            <label>First Name: </label>
-            <input type="text" />
-            <br />
-            <label>Middle Name: </label>
-            <input type="text" />
-            <br />
-            <label>Last Name: </label>
-            <input type="text" />
-            <br />
-            <label>Birthday: </label>
-            <input type="date" value="birthDate"/>
-            <br />
-            <label>Delivery Address: </label>
-            <input type="text" />
-            <br />
-            <label>Phone Number: </label>
-            <input type="tel" />
-            <br />
-            <input className="signUpBtn" type="button" value="Submit"/>
-          </div>
-        </div>
-      </form>
+      <div className="formBox">
+        <form className="form">
+          <h2 className="titleHeader">Sign Up</h2>
+            <div className="inputContainer" >
+              <div className="inputBlock">
+                <input type="email" placeholder="Email" required/>
+                <input type="password" placeholder="Password" required/>
+                <input type="text" placeholder="First Name" required/>
+                <input type="text" placeholder="Last Name" required/>
+                <input type="number" placeholder="Contact Number" required/>
+                <input type="text" placeholder="Delivery Address" required/>
+                <input type="date" placeholder="Birthdate" />
+              </div>
+            </div>
+            <div className="confirmationContainer">
+            <input className="signUpBtn" type="submit" value="Sign up" />
+            <div className="newUser">Already signed up? <Link to="Signin">Sign in</Link></div>
+            </div>
+        </form>
+      </div>
     );
   }
 }
