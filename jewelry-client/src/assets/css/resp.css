@@ -253,30 +253,30 @@
 }
 
 /*Signin and SignupForm*/
-@media all and (max-width: 325px) {
-  .signInForm, .signUpForm{
+@media all and (max-width: 320px) {
+  .formBox{
     width: 90% !important;
   }
-  .formContainer {
-    width: 100% !important;
+  .form{
+    width: 90% !important;
   }
 }
 
 @media all and (min-width: 326px) and (max-width: 425px) {
-  .signInForm, .signUpForm{
+  .formBox{
     width: 80% !important;
   }
-  .formContainer {
-    width: 100% !important;
+  .form{
+    width: 90% !important;
   }
 }
 
-@media all and (min-width: 426px) and (max-width: 768px) {
-  .signInForm, .signUpForm{
-    width: 40% !important;
+@media all and (min-width: 426px) and (max-width: 1024px) {
+  .formBox{
+    width: 80% !important;
   }
-  .formContainer {
-    width: 100% !important;
+  .form{
+    width: 90% !important;
   }
 }
 
